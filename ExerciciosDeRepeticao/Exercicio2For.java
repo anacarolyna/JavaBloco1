@@ -1,8 +1,9 @@
 package ExerciciosDeRepeticao;
 
 import java.util.Scanner;
-
-public class Exercicio2 {
+/*Ler 10 números e imprimir quantos são pares e quantos são ímpares. (FOR)
+ */
+public class Exercicio2For {
 	public static void main(String[] args) {
 	int impar=0, par=0;
 	Scanner ler = new Scanner(System.in);
