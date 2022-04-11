@@ -22,15 +22,11 @@ public class Exc1VetorPontuacao {
 				valmaior = vet[linha];
 
 			}
-			  
-
-			}
-		  
-			System.out.println("\nMaior valor da pontuação: "+ valmaior);
 
 		}
 
+		System.out.println("\nMaior valor da pontuação: " + valmaior);
 
 	}
 
-
+}

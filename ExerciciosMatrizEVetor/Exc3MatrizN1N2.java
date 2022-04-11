@@ -31,13 +31,13 @@ public class Exc3MatrizN1N2 {
 				for (coluna = 0; coluna < 6; coluna++) {
 					M1[linha][coluna] += N1[linha][coluna] + N2[linha][coluna];
 					M2[linha][coluna] += N1[linha][coluna] - N2[linha][coluna];
-					
-					if ((N1[linha][coluna]-N2[linha][coluna])<0) {
-						M2[linha][coluna]*=-1;
+
+					if ((N1[linha][coluna] - N2[linha][coluna]) < 0) {
+						M2[linha][coluna] *= -1;
 					}
-			          	
-					System.out.print(""+M1[linha][coluna] + "\t");
-					System.out.print(""+M2[linha][coluna] + "\t");
+
+					System.out.print("" + M1[linha][coluna] + "\t");
+					System.out.print("" + M2[linha][coluna] + "\t");
 					System.out.println();
 				}
 			}

@@ -8,28 +8,28 @@ imprima a média aritmética dos lançamentos, contabilize e apresente também
 quantas foram as ocorrências da maior pontuação. 
 	*/
 public class Exc2VetorDado {
-     public static void main(String[] args) {
-	 int vet[] = new int [10];
-	 int soma=0, num, maiorponto=0, ocorrencias=0;
-	 Random s = new Random();
-  
-    	
-      for (num=0; num<10; num++) {
-    	  vet[num] = s.nextInt(6) + 1;
-    	  System.out.print(" Soteio: "+ vet[num]);
-    
-    	  soma+=vet[num];
-    	  
-    	  if(vet[num]>maiorponto) {
-    		maiorponto=vet[num];  
-    	  }
-      }
-      for (num=0; num<10; num++) {
-    	  if (vet[num]==maiorponto);
-    	  ocorrencias++;
-      }
-    	System.out.println("\nMédia aritmética: "+ soma/10); 
-    	System.out.println("\nMaior pontuação: "+ maiorponto); 
-    	System.out.println("\nQuantodade de ocorrências do maior número: "+ ocorrencias); 
+	public static void main(String[] args) {
+		int vet[] = new int[10];
+		int soma = 0, num, maiorponto = 0, ocorrencias = 0;
+		Random s = new Random();
+
+		for (num = 0; num < 10; num++) {
+			vet[num] = s.nextInt(6) + 1;
+			System.out.print(" Soteio: " + vet[num]);
+
+			soma += vet[num];
+
+			if (vet[num] > maiorponto) {
+				maiorponto = vet[num];
+			}
+		}
+		for (num = 0; num < 10; num++) {
+			if (vet[num] == maiorponto)
+				;
+			ocorrencias++;
+		}
+		System.out.println("\nMédia aritmética: " + soma / 10);
+		System.out.println("\nMaior pontuação: " + maiorponto);
+		System.out.println("\nQuantodade de ocorrências do maior número: " + ocorrencias);
 	}
 }

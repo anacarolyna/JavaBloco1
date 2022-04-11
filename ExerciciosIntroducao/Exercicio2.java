@@ -14,24 +14,21 @@ public class Exercicio2 {
 		b = ler.nextInt();
 		c = ler.nextInt();
 
-		if(a>b)
-		  {
-			troca=b;
-			b=a;
-			a=troca;
-		  }
-	    if (b>c)
-		  {
-			troca=c;
-			c=b;
-			b=troca;
-		  }
-		if(a>b)
-		  {
-			troca=b;
-			b=a;
-			a=troca;
-		  }
-		System.out.println(a+"\t"+b+"\t"+c);
+		if (a > b) {
+			troca = b;
+			b = a;
+			a = troca;
+		}
+		if (b > c) {
+			troca = c;
+			c = b;
+			b = troca;
+		}
+		if (a > b) {
+			troca = b;
+			b = a;
+			a = troca;
+		}
+		System.out.println(a + "\t" + b + "\t" + c);
 	}
 }
