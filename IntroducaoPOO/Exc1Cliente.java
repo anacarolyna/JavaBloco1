@@ -1,8 +1,8 @@
 package IntroducaoPOO;
 
-/*1 Crie uma classe cliente e apresente os atributos e métodos referentes
+/*1 Crie uma classe cliente e apresente os atributos e mÃ©todos referentes
 esta classe, em seguida crie um objeto cliente, defina as instancias deste
-objeto e apresente as informações deste objeto no console.
+objeto e apresente as informaÃ§Ãµees deste objeto no console.
  * 
  */
 public class Exc1Cliente {
@@ -19,7 +19,7 @@ public class Exc1Cliente {
 		idade = 44;
 	}
 
-	// MÉTODOS -> COMPORTAMENTOS
+	// Mï¿½TODOS -> COMPORTAMENTOS
 	public String getNomeCompleto() {
 		String nomeCompleto = primeiroNome + "" + nomesDoMeio + "" + ultimoNome + ". Idade: " + idade;
 		return nomeCompleto;

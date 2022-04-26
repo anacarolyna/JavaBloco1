@@ -1,8 +1,8 @@
 package IntroducaoPOO;
 
-/*5 Crie uma classe patinete e apresente os atributos e métodos referentes
+/*5 Crie uma classe patinete e apresente os atributos e mï¿½todos referentes
 esta classe, em seguida crie um objeto patinete, defina as instancias deste
-objeto e apresente as informações deste objeto no console.
+objeto e apresente as informaï¿½ï¿½es deste objeto no console.
  */
 public class Exc5Patinete {
 	String tipo = "meio de transporte. ";
@@ -18,7 +18,7 @@ public class Exc5Patinete {
 	}
 
 	public String getmeuPatinete() {
-		String patin = "Patinete: " + tipo + " Guidão: se eleva até a altura da cintura" + guidao
+		String patin = "Patinete: " + tipo + " GuidÃ£o: se eleva atÃ© a altura da cintura" + guidao
 				+ " Quantidade de rodas: " + rodas;
 		return patin;
 	}

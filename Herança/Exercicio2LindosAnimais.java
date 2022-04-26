@@ -1,7 +1,7 @@
-package Herança;
-/*2)Implemente um programa que crie os 3 tipos de animais definidos no exercício
-anterior e invoque o método que emite o som de cada um de forma polimórfica, isto
-é, independente do tipo de animal.
+package HeranÃ§a;
+/*2)Implemente um programa que crie os 3 tipos de animais definidos no exercï¿½cio
+anterior e invoque o mï¿½todo que emite o som de cada um de forma polimï¿½rfica, isto
+ï¿½, independente do tipo de animal.
  */
 public class Exercicio2LindosAnimais {
 	public static void main(String[] args) {

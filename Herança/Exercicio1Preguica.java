@@ -1,12 +1,12 @@
-package Herança;
+package HeranÃ§a;
 
 /* 1 - Crie uma hierarquia de classes conforme abaixo com os seguintes atributos e 
  * comportamentos (observe a tabela), utilize os seus conhecimentos e distribua 
- * as características de forma que tudo o que for comum a todos os animais fique 
+ * as caracterï¿½sticas de forma que tudo o que for comum a todos os animais fique 
  * na classe Animal. */
 public class Exercicio1Preguica extends Exercicio1Animal {
 	public void subir() {
-		System.out.println("A preguiça está subindo em árvores...");
+		System.out.println("A preguiï¿½a estï¿½ subindo em ï¿½rvores...");
 	}
 
 }
