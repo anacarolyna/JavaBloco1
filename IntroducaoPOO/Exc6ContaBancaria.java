@@ -2,13 +2,13 @@ package IntroducaoPOO;
 
 import java.util.Scanner;
 
-/*6) Crie uma classe conta bancaria e apresente os atributos e métodos
+/*6) Crie uma classe conta bancaria e apresente os atributos e mï¿½todos
 referentes esta classe, em seguida crie um objeto conta bancaria, defina
-as instancias deste objeto e apresente as informações deste objeto no
+as instancias deste objeto e apresente as informaï¿½ï¿½es deste objeto no
 console.
  */
 public class Exc6ContaBancaria {
-	// O que uma conta bancária tem?
+	// O que uma conta bancaria tem?
 
 	String agencia, dono;
 	boolean tipoConta;
@@ -19,17 +19,17 @@ public class Exc6ContaBancaria {
 
 	public void checaTipoConta() {
 		if (tipoConta == true) {
-			System.out.println("Esta é uma conta corrente.");
+			System.out.println("Esta Ã© uma conta corrente.");
 		} else {
-			System.out.println("Esta é uma conta poupança.");
+			System.out.println("Esta Ã© uma conta poupanÃ§a.");
 		}
 	}
 
 	public void sacar() {
 		if (saldo <= 0) {
-			System.out.println("Você não tem grana, junte na próxima.");
+			System.out.println("VocÃª nÃ£o tem grana, junte na prÃ³xima.");
 		} else {
-			System.out.println("Quando você quer sacar: ");
+			System.out.println("Quando vocÃª quer sacar: ");
 			s = leia.nextDouble();
 			saldo -= s;
 			// saldo = saldo - n
@@ -37,16 +37,16 @@ public class Exc6ContaBancaria {
 	}
 
 	public void depositar() {
-		System.out.println("Quando você quer depositar: ");
+		System.out.println("Quando vocÃª quer depositar: ");
 		d = leia.nextDouble();
 		saldo += d;
 	}
 
 	public void checagemDeConta() {
-		System.out.println("A agência é: " + this.agencia);
-		System.out.println("O dono da conta é: " + this.dono);
-		System.out.println("O tipo da conta é corrente? " + this.tipoConta);
+		System.out.println("A agÃªncia Ã©: " + this.agencia);
+		System.out.println("O dono da conta Ã©: " + this.dono);
+		System.out.println("O tipo da conta de corrente? " + this.tipoConta);
 		System.out.println("Saldo da conta: " + String.format("%.3f", this.saldo));
-		System.out.println("Limite diário: " + String.format("%.3f", this.limite));
+		System.out.println("Limite diÃ¡rio: " + String.format("%.3f", this.limite));
 	}
 }
